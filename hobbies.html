@@ -5,6 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Hobbies - BioSite</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        ul.hobby-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul.hobby-list li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        ul.hobby-list li img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        ul.hobby-list ol {
+            margin-left: 50px; /* Indentation for sub-lists */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -21,23 +43,35 @@
     <main>
         <section>
             <h2>My Favorite Activities</h2>
-            <p>Here are some of my hobbies and interests.</p>
+            <p>Here are some of my hobbies and interests:</p>
             <br />
-            <figure class="center">
-            <img src="https://cdn.pixabay.com/photo/2024/05/09/20/12/ai-generated-8751730_1280.jpg" alt="AI generated art" style="width:400px;height:600px;">
-            <ul>
-            </figure>
-                <li>Running Tabletop Games</li>
-                   <ol>
-                    <li>Dungeons & Dragons</li>
-                    <li>Death in Space</li>
-                    <li>EZD6</li>
-                    <li>Mork Borg</li>
-                    <li>White Box hacks</li>
-                    <li>Lovecraftian Games</li>
-                    </ol> 
-                <li>Playing Retro Games</li>
-                <li>Throwing Axe</li>
+            <ul class="hobby-list">
+                <li>
+                    <img src="https://example.com/dice.png" alt="Dice">
+                    Running Tabletop Games
+                    <ol>
+                        <li>Dungeons & Dragons</li>
+                        <li>Death in Space</li>
+                        <li>EZD6</li>
+                        <li>Mork Borg</li>
+                        <li>White Box hacks</li>
+                        <li>Lovecraftian Games</li>
+                    </ol>
+                </li>
+                <li>
+                    <img src="https://example.com/console.png" alt="Retro Game Console">
+                    Playing Retro Games
+                    <ol>
+                        <li>Pokemon Gen 1 and 2</li>
+                        <li>Super Mario 3</li>
+                        <li>Sonic the Hedgehog</li>
+                        <li>Rocket Knight</li>
+                    </ol>
+                </li>
+                <li>
+                    <img src="https://example.com/axe.png" alt="Axe">
+                    Throwing Axe
+                </li>
             </ul>
         </section>
     </main>
