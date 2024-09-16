@@ -39,6 +39,23 @@ section {
     margin-bottom: 1em;
 }
 
+/* Image container to center the image */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Optional: Adds space around the image */
+}
+
+/* Style for the image */
+.image-container img {
+    border: 5px solid #000; /* Frame around the image */
+    border-radius: 10px; /* Optional: Rounded corners */
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto; /* Maintains image aspect ratio */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow for depth */
+}
+
 footer {
     background-color: #f4f4f4;
     padding: 1em 0;
