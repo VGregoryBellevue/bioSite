@@ -56,6 +56,18 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow for depth */
 }
 
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 10px;
+}
+
+
 footer {
     background-color: #f4f4f4;
     padding: 1em 0;
