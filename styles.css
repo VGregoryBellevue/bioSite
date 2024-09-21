@@ -4,16 +4,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f8f1e5; /* Light beige to reflect a cozy brewery atmosphere */
 }
 
 header {
-    background-color: #f4f4f4;
+    background-color: #8b5e34; /* Warm brown representing wooden barrels or brewing equipment */
+    color: #fff; /* White text to contrast the dark background */
     padding: 1em 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
+    color: #f1c40f; /* Golden yellow, representing beer or cider */
 }
 
 nav ul {
@@ -28,15 +31,21 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #f1c40f; /* Golden yellow links */
+    font-weight: bold;
 }
 
 main {
     padding: 1em;
+    color: #333; /* Dark text for readability */
 }
 
 section {
     margin-bottom: 1em;
+    background-color: #fffaf3; /* Light cream background for content areas */
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 /* Image container to center the image */
@@ -49,7 +58,7 @@ section {
 
 /* Style for the image */
 .image-container img {
-    border: 2px solid #000; /* Frame around the image */
+    border: 2px solid #8b5e34; /* Dark brown border for consistency with brewery theme */
     border-radius: 10px; /* Optional: Rounded corners */
     max-width: 100%; /* Ensures the image is responsive */
     height: auto; /* Maintains image aspect ratio */
@@ -63,13 +72,13 @@ figure {
 
 figcaption {
     font-size: 0.9em;
-    color: #555;
+    color: #8b5e34; /* Darker text for caption */
     margin-top: 10px;
 }
 
-
 footer {
-    background-color: #f4f4f4;
+    background-color: #8b5e34; /* Same brown as header */
+    color: #fff; /* White text for contrast */
     padding: 1em 0;
     text-align: center;
 }
