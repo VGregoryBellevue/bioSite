@@ -5,7 +5,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('images/brewery_background.jpg'); /* Replace with your background image path */
+    background-image: url('images/background-repeat.png'); /* Replace with your background image path */
     background-size: cover; /* Cover the entire area */
     background-repeat: no-repeat; /* Don't repeat the image */
     background-attachment: fixed; /* Keep the image fixed during scrolling */
