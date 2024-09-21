@@ -1,22 +1,26 @@
 /* styles.css */
 
+/* Set a fixed background image */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f1e5; /* Light beige to reflect a cozy brewery atmosphere */
+    background-image: url('images/brewery_background.jpg'); /* Replace with your background image path */
+    background-size: cover; /* Cover the entire area */
+    background-repeat: no-repeat; /* Don't repeat the image */
+    background-attachment: fixed; /* Keep the image fixed during scrolling */
+    color: #fff; /* White text for readability */
 }
 
 header {
-    background-color: #8b5e34; /* Warm brown representing wooden barrels or brewing equipment */
-    color: #fff; /* White text to contrast the dark background */
+    background-color: rgba(139, 94, 52, 0.7); /* Semi-transparent warm brown */
     padding: 1em 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    color: #f1c40f; /* Golden yellow, representing beer or cider */
+    color: #f1c40f; /* Golden yellow */
 }
 
 nav ul {
@@ -37,18 +41,17 @@ nav ul li a {
 
 main {
     padding: 1em;
-    color: #333; /* Dark text for readability */
 }
 
 section {
     margin-bottom: 1em;
-    background-color: #fffaf3; /* Light cream background for content areas */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black for content areas */
     padding: 1em;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
 }
 
-/* Image container to center the image */
+/* Center images */
 .image-container {
     display: flex;
     justify-content: center;
@@ -58,11 +61,10 @@ section {
 
 /* Style for the image */
 .image-container img {
-    border: 2px solid #8b5e34; /* Dark brown border for consistency with brewery theme */
+    border: 2px solid rgba(139, 94, 52, 0.8); /* Dark brown border */
     border-radius: 10px; /* Optional: Rounded corners */
-    max-width: 100%; /* Ensures the image is responsive */
+    max-width: 80%; /* Adjusts image size to prevent overflow */
     height: auto; /* Maintains image aspect ratio */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow for depth */
 }
 
 figure {
@@ -72,12 +74,12 @@ figure {
 
 figcaption {
     font-size: 0.9em;
-    color: #8b5e34; /* Darker text for caption */
+    color: #f1c40f; /* Golden yellow for caption text */
     margin-top: 10px;
 }
 
 footer {
-    background-color: #8b5e34; /* Same brown as header */
+    background-color: rgba(139, 94, 52, 0.7); /* Same semi-transparent warm brown */
     color: #fff; /* White text for contrast */
     padding: 1em 0;
     text-align: center;
