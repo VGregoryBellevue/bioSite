@@ -10,6 +10,7 @@ body {
     background-repeat: no-repeat; /* Don't repeat the image */
     background-attachment: fixed; /* Keep the image fixed during scrolling */
     color: #fff; /* White text for readability */
+    text-align: center; /* Center all text within the body */
 }
 
 header {
@@ -21,6 +22,11 @@ header {
 header h1 {
     margin: 0;
     color: #f1c40f; /* Golden yellow */
+}
+
+header h2 {
+    margin:0;
+    text-align: center; /* Center all text within the body */
 }
 
 nav ul {
